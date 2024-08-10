@@ -3,6 +3,7 @@
 		driver.get("https://www.ixigo.com/");
 		//Alert a = driver.switchTo().alert();
 		//a.dismiss();
+		// Modified in repository
 		driver.findElement(By.xpath("(//input[@class='c-input u-v-align-middle'])[1]")).click();
 		driver.findElement(By.xpath("(//div[.='Kempegowda International Airport'])[1]")).click();
 		driver.findElement(By.xpath("(//input[@class='c-input u-v-align-middle'])[2]")).click();
