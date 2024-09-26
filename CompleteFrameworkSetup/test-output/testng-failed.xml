@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SetupFrameWork.CompleteFrameworkSetup.Google">
+      <class name="lerhestNumber">
         <methods>
-          <include name="LaunchApplication"/>
-          <include name="TearDown"/>
-          <include name="GoogleApplications"/>
+          <include name="findTheLargestNumber"/>
         </methods>
-      </class> <!-- SetupFrameWork.CompleteFrameworkSetup.Google -->
+      </class> <!-- lerhestNumber -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
